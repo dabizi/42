@@ -27,33 +27,8 @@ OBJ_PATH = ./obj
 OBJLIB_PATH = ./obj
 
 SRC_NAME =	ft_printf.c
-#ft_apply_flags.c\
-			ft_check.c\
-			ft_dispatcher.c\
-			ft_display_char.c\
-			ft_display_numb.c\
-			ft_flag_s.c\
-			ft_flag_c.c\
-			ft_flag_d.c\
-			ft_flag_p_undefined.c\
-			ft_flag_wu_wo.c\
-			ft_flag_u_o.c\
-			ft_flag_x.c\
-			ft_handler.c\
-			ft_printf.c\
-			ft_buf.c\
-			ft_transform_wchar.c
-
-LIB_NAME = 	ft_atoi.c\
-			ft_putchar_fd.c \
-		#	ft_isdigit.c\
-			ft_itoa_base.c\
-			ft_strlen.c\
-			ft_strsub.c\
-			ft_wcharlen.c\
-			ft_strlwr.c\
-			ft_wstrlen.c\
-			ft_wstrsub.c
+			
+LIB_NAME = 	ft_atoi.c
 
 INC_NAME = ft_printf.h
 

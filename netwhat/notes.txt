@@ -1,0 +1,113 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    notes.txt                                          :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: jgrandne <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/10/15 12:39:30 by jgrandne          #+#    #+#              #
+#    Updated: 2019/10/17 18:08:42 by jgrandne         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+find . -type d -o -type f | grep "name_of_file_to_find"
+
+ls -l | wc -l => give the numb of files in folder + 1 (total)
+
+git add -A
+git commit -m "message"
+git push
+
+IPv4 -> 32 bits, 1983, ex 172.16.254.1
+IPv6 -> 128 bits, 1998, ex 2001:db8:0:1234:0:567:8:1
+
+The subnet mast or CIDR notation determines how the IP address is divided 
+into network and host parts.
+
+IPv4 -> 2^32 addresses
+
+First three bits of IP address = class of IP adress. Class A/B/C.
+Biggest is A (2^24), then B (2^16), then C (2^8)
+
+Many home routers automatically use adefault address range of 192.168.0.0 
+through 192.168.0.255
+
+Binary host address with only 1 or only 0 can't be used/ 
+Therefore, can't use address with last octet being 0, 63, 64, 127, 128, 191,
+192 ou 255.
+
+Mac Address : stable || IP Adress : relative to the network
+Mac address => series of 6 numbers, ex : 00-16-D4-C7-6E-D3
+Routeur : in communication with all
+Commutator : only send the informatin to the destination
+
+LAN ; WAN (Wide Area Network) associaions of multiple Lan
+
+TCP : connection-oriented
+UDP : connectionless-origented
+Address mapping = link IP with Mac address
+
+CRC : Cyclic Redundancy Check, use to detect errors
+
+OSI MODEL : "All People Seem To Need Data Processing"
+
+Protocol TCP/IP -> Darpa in 1970
+OSI -> International Organization for Standardization in 1978
+
+Bitorrent : instead of having a server providing files for 10 000 people at
+the same time, each node is both a user and a serer.
+-> Facebook and Twitter use Bitorrent to distribute their update. (still true?)
+seeder (has full copy of the file) and peer (only has part of the file)
+tracker : know who is seeder and peer
+leech : download more than he shares
+
+gcl git clone
+
+IP -> Peut communiquer au-dela du sous-reseau
+MAC -> Ne peut pas communiquer au-dela du sous-reseau
+
+Masque de sous-reseau ; indique auelle partie identifie le reseau (network id) 
+et auelle partie identifie l'hote sur le reseau (host id)
+
+-> Donc, le masque de sous-reseau d2finit la plage d'adresses IP avec laquelle
+une carte reseau peut communiquer directement. Pour les adresses exterieures
+a cette plage, elle doit passer par une passerelle par defaut.
+
+255 -> partie definissant le network id
+0 -> partie definissant le host ID
+
+Ex : 129.51.3.5 (IP) 255.255.0.0 (Mask)
+L'adresse IP ci-dessus est celle d'un hote 3.5 dans le reseau 129.51
+Mask : 255 forcement a gauche et 0 forcement a droite.
+
+Subnetting -> diviser un reseau large en plusieurs sous-reseaux
+
+192.168.1.45/255.255.255.0 == 192.168.1.45/24 (CIDR NOTATION)
+
+Passerelle par defaut -> Default Gateway (tous les paquets dont la route est
+inconnue sont redirigees vers ca)
+
+Toutes les adresses en 127.XXX.XXX.XXX sont des adresses test qu'on ne peut  
+pas reellement utiliser. 
+
+1 octet = 1 byte = 8 bits
+
+A Class IP : premier octet = identite du reseau (network id)
+-> 16 777 214 adresses IP par reseau et 126 reseaux
+B CLass IP : default subnet mask 255.255.0.0
+-> 65 534 ordinateurs par reseau
+C Class IP : default subnet mask 255.255.255.0
+-> 254 adresses IP par reseau et 2 097 152 reseaux
+
+Classe A privee : 10.0.0.0 - 10.255.255.255
+Clasee B privee : 172.13.0.0 - 172.31.255.255
+Classe C privee : 192.168.0.0 - 192.168.255.255 
+
+L'adressage CIDR (Classless adresses) a supplante les classes 
+(classfull adresses)
+CIDR et le supernetting permet d'economiser les adresses IP.
+
+DHCP -> UPD/IP 
+
+UDP (non connexion)
+TCP (connexion)

@@ -69,7 +69,7 @@ MAC -> Ne peut pas communiquer au-dela du sous-reseau
 Masque de sous-reseau ; indique auelle partie identifie le reseau (network id) 
 et auelle partie identifie l'hote sur le reseau (host id)
 
--> Donc, le masque de sous-reseau d2finit la plage d'adresses IP avec laquelle
+-> Donc, le masque de sous-reseau définit la plage d'adresses IP avec laquelle
 une carte reseau peut communiquer directement. Pour les adresses exterieures
 a cette plage, elle doit passer par une passerelle par defaut.
 
@@ -111,3 +111,6 @@ DHCP -> UPD/IP
 
 UDP (non connexion)
 TCP (connexion)
+
+DHCP -> IPV4 IPV6
+IPv6 -> 128 bits

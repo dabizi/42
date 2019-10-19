@@ -117,3 +117,6 @@ IPv6 -> 128 bits
 
 max num of IP addresses that can be assigned on local subnet with 255.254.0.0 subnet mask -> 131070
 
+TCP : 
+Sequencing of data is a feature of TCP, TCP is reliable, it doesn't supports broadcasting, it is a connection-oriented protocol, and it provides extensive error checking mechanisms. However, it is not faster simpler and more efficient than UDP. 
+

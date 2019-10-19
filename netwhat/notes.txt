@@ -127,3 +127,24 @@ simpler and more efficient than UDP.
 DHCP uses UDP as the Transport Layer. 
 The Domain name system translates internet domain and host names
 to IP address. 
+
+DHCP uses UDP. 
+
+SMTP may use both UDP and TCP ; "the Internet Assigned
+Numbers Authority has allocated port 25 for both TCP and UDP for use by 
+SMTP". However, SMTP use more often (if not always) TCP. 
+Source : 
+https://stackoverflow.com/questions/16809214/is-smtp-based-on-tcp-or-udp
+
+For FTP : "FTP itself uses the TCP transport protocol exclusively, or 
+in other words, it never uses UDP for its transport needs. Typically 
+an application layer protocol will use one or the other. One notable 
+exception to that is DNS or Domain Name System. FTP also is odd in the 
+fact that it uses two ports to accomplish its task. It typically uses 
+port 20 for data transfer and port 21 to listen to commands. Though 
+having data transferred over port 20 is not always the case as it can 
+also be a different port as well. That is where the confusing part for
+many people comes into play. There are two modes to FTP, namely active 
+and passive mode. These two modes are initiated by the FTP client, and 
+then acted upon by the FTP server. 
+Source : http://techgenix.com/understanding-ftp-protocol/

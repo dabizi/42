@@ -110,13 +110,18 @@ CIDR et le supernetting permet d'economiser les adresses IP.
 DHCP -> UPD/IP 
 
 UDP (non connexion)
-TCP (connexion)
+TCP (connexion-oriented protocol)
 
 DHCP -> Works with both IPV4 && IPV6
 IPv6 -> 128 bits
 
-max num of IP addresses that can be assigned on local subnet with 255.254.0.0 subnet mask -> 131070
+max num of IP addresses that can be assigned on local subnet with 
+255.254.0.0 subnet mask -> 131070
 
 TCP : 
-Sequencing of data is a feature of TCP, TCP is reliable, it doesn't supports broadcasting, it is a connection-oriented protocol, and it provides extensive error checking mechanisms. However, it is not faster simpler and more efficient than UDP. 
+Sequencing of data is a feature of TCP, TCP is reliable, it doesn't 
+supports broadcasting, it is a connection-oriented protocol, and it 
+provides extensive error checking mechanisms. However, it is not faster
+simpler and more efficient than UDP. 
 
+DHCP uses UDP as the Transport Layer. 

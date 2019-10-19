@@ -150,3 +150,6 @@ then acted upon by the FTP server.
 Source : http://techgenix.com/understanding-ftp-protocol/
 
 HTTP with UDP : Possible in theory, almost never happen in practice.
+
+Network address of a host with an IP address : 
+http://jodies.de/ipcalc

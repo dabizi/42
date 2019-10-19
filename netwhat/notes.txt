@@ -125,3 +125,5 @@ provides extensive error checking mechanisms. However, it is not faster
 simpler and more efficient than UDP. 
 
 DHCP uses UDP as the Transport Layer. 
+The Domain name system translates internet domain and host names
+to IP address. 

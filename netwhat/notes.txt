@@ -148,3 +148,5 @@ many people comes into play. There are two modes to FTP, namely active
 and passive mode. These two modes are initiated by the FTP client, and 
 then acted upon by the FTP server. 
 Source : http://techgenix.com/understanding-ftp-protocol/
+
+HTTP with UDP : Possible in theory, almost never happen in practice.

@@ -112,5 +112,8 @@ DHCP -> UPD/IP
 UDP (non connexion)
 TCP (connexion)
 
-DHCP -> IPV4 IPV6
+DHCP -> Works with both IPV4 && IPV6
 IPv6 -> 128 bits
+
+max num of IP addresses that can be assigned on local subnet with 255.254.0.0 subnet mask -> 131070
+

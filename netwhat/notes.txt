@@ -152,5 +152,7 @@ Source : http://techgenix.com/understanding-ftp-protocol/
 HTTP with UDP : Possible in theory, almost never happen in practice.
 UDP supports Broadcasting
 
+-> https://www.geeksforgeeks.org/differences-between-tcp-and-udp/
+
 Network address of a host with an IP address : 
 http://jodies.de/ipcalc

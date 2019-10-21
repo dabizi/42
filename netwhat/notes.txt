@@ -18,6 +18,8 @@ git add -A
 git commit -m "message"
 git push
 
+=> https://openclassrooms.com/fr/courses/1561696-les-reseaux-de-zero
+
 IPv4 -> 32 bits, 1983, ex 172.16.254.1
 IPv6 -> 128 bits, 1998, ex 2001:db8:0:1234:0:567:8:1
 

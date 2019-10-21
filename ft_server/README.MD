@@ -2,3 +2,8 @@
 
 Interesting doc on the subject (en) :
 https://github.com/VBrazhnik/docker-1/wiki/How-to-Docker
+
+Command to delete :
+docker-machine rm "name"
+Ex :
+docker-machine rm "Char"

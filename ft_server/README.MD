@@ -5,6 +5,9 @@ FT_SERVER est un projet de l'école 42. D'après la description, "Ce sujet a pou
 Interesting doc on the subject (en) :
 https://github.com/VBrazhnik/docker-1/wiki/How-to-Docker
 
+Official doc (en) :
+https://docs.docker.com/get-started/ 
+
 Command to delete :
 docker-machine rm "name"
 

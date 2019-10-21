@@ -154,5 +154,7 @@ UDP supports Broadcasting
 
 -> https://www.geeksforgeeks.org/differences-between-tcp-and-udp/
 
+HTTP uses port 80 by default, which is TCP.
+
 Network address of a host with an IP address : 
 http://jodies.de/ipcalc

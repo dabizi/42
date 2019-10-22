@@ -160,5 +160,9 @@ HTTP uses port 80 by default, which is TCP.
 
 Address to test ; 127.0.0.1
 
+Ping uses ICMP protocol. 
+
+Not true : Sequencing of data is a feature of TCP. 
+
 Network address of a host with an IP address : 
 http://jodies.de/ipcalc

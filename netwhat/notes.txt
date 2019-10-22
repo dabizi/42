@@ -158,5 +158,7 @@ UDP supports Broadcasting
 
 HTTP uses port 80 by default, which is TCP.
 
+Address to test ; 127.0.0.1
+
 Network address of a host with an IP address : 
 http://jodies.de/ipcalc

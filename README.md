@@ -6,6 +6,6 @@ Pour réussir le projet, je recommande l'excellent cours d'OpenClassRoom intitul
 
 Si il me semble important de savoir calculer les adresses réseaux ainsi que les "range" par soi même, je conseille le site http://jodies.de/ipcalc pour réussir le QCM dans le temps imparti.
 
-**Résult :**
+**Result :**
 
 ![Alt text](netwhat_grade.png?raw=true "Netwhat grade")

@@ -8,4 +8,4 @@ Si il me semble important de savoir calculer les adresses réseaux ainsi que les
 
 **Result :**
 
-![Alt text](netwhat_grade.png?raw=true "Netwhat grade")
+![Alt text](netwhat42/netwhat_grade.png?raw=true "Netwhat grade")
